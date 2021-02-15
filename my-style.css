@@ -1,3 +1,7 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
 nav {
     display: flex;
     justify-content: flex-end;
@@ -20,13 +24,13 @@ form {
    text-align: center;
 }
 #search {
-    display: inline-block;
-    width: 40%;
-    -webkit-appearance: none;
-    height: 30%;
-    border-radius: 50px;
-    padding-bottom: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid;
     border-color: #f5f7f5;
+    width: 60vh;
+    
 }
 .button {
   border-radius: 5px;
@@ -39,4 +43,28 @@ form {
   font-size: 13px;
   position: relative;
   top: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    margin-bottom: 0px;
+    background-color: #f5f7f5;
+}
+#left {
+    position:absolute;
+    bottom:0px;
+    left:0px;
+  
+}
+#right {
+    position:absolute;
+    bottom:0px;
+    right:0px;
+  
+}
+.footer-link {
+    padding: 10px;
 }
